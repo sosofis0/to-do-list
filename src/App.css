@@ -7,7 +7,7 @@ body{
   padding: 30px;
   min-height: 100vh;
   color: #18043f;
-  background-image: url('./img/bg.jpg');
+  background-image: url('./img/bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@ body{
 .app{
   max-width: 600px;
   margin: 0 auto 300px;
-  background-color: rgb(254, 221, 249);
+  background-color: rgba(254, 242, 182, 0.655);
   padding: 20px 30px;
   border-radius: 28px;
 }
@@ -37,8 +37,35 @@ input{
 }
 
 button{
-  background-color: #a17070;
+  background-color: #97640e;
   color: aliceblue;
   padding: 5px 10px;
   border: none;
+  border-radius: 8px;
+  cursor:pointer;
+  opacity: .8;
+  transition: .3s;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.complete{
+  background-color: rgb(118, 138, 64);
+}
+.remove{
+  background-color: rgb(178, 61, 29);
+}
+
+.todo-form{
+  padding-bottom: 1.5rem;
+}
+
+input,select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #DDD;
+  border-radius: 8px;
+  width: 100%;
 }
