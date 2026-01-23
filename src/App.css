@@ -39,6 +39,7 @@ input{
 button{
   background-color: #97640e;
   color: aliceblue;
+  margin-right: 10px;
   padding: 5px 10px;
   border: none;
   border-radius: 8px;
@@ -49,6 +50,23 @@ button{
 
 button:hover{
   opacity: 1;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(149, 48, 48);
+}
+
+.todo{
+  background-color: rgb(249, 252, 196);
+  box-shadow: 0 0 10px rgba(196, 159, 23, 0.423);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .complete{
